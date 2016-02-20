@@ -1,7 +1,14 @@
+/******Body Styles******/
 body {
     padding: 0;
     margin: 0;
     text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    color: inherit;
 }
 
 img {
@@ -14,11 +21,7 @@ footer {
     width: 100%;
 }
 
-.primary-content,
-.contact {
-    padding: 5%;
-    align-content: center;
-}
+/******Heading Stlyes******/
 
 header {
     text-align: center;
@@ -49,3 +52,36 @@ header p {
     font-weight: 200;
     padding: 1.2em 2em 2em 2em;
 }
+
+/**Primary Content/Contact Stlye**/
+.primary-content,
+.contact {
+    padding: 5%;
+    text-align: center;
+}
+
+
+address {
+    font-style: normal;
+}
+
+/******Footer Styles******/
+footer {
+    padding-right: 2em;
+    padding-left: 2em;
+}
+
+footer h4 {
+    display: inline-block;
+    float: left;
+}
+
+footer a {
+    display: inline-block;
+    float: right;
+    padding-right: 5em;
+    padding-top: 1.3em;
+}
+
+/******Media Queries******/
+
