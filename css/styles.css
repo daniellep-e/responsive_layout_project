@@ -136,7 +136,7 @@ footer a {
 /******Media Queries******/
 
 @media screen and (min-width: 768px) {
-/*****Navbar styles for Tablets****/
+    /*****Navbar styles for Tablets****/
     .navbar {
         text-align: center;
         float:top;
@@ -161,7 +161,7 @@ footer a {
     .navbar li:last-of-type {
         margin-right: 0;
     }
-/*****Header styles for Tablets****/
+    /*****Header styles for Tablets****/
     header {
         height: 400px;
     }
@@ -192,13 +192,18 @@ footer a {
         text-align: left;
         margin-left: 0;
     }
-/*****Main Column styles for Tablets****/
+    /*****Main Column styles for Tablets****/
     .col {
-        width: calc((100%-8%)/2);    
+        width: 45%;    
         float: left;
+        margin: 0;
     }
-    .col two {
-        margin-left: 2%;
+    
+    .one {
+        padding-right: 8%;
+    }
+    .two {
+        padding-right: 0;
     }
 }
 
