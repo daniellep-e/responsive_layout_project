@@ -116,6 +116,7 @@ footer {
     padding-right: 2em;
     padding-left: 2em;
     border-top: 1px solid #eae8e8;
+    width: 100%;
 }
 
 footer h4 {
@@ -193,6 +194,7 @@ footer a {
         margin-left: 0;
     }
     /*****Main Column styles for Tablets****/
+    
     .col {
         width: 45%;    
         float: left;
@@ -201,15 +203,72 @@ footer a {
     
     .one {
         padding-right: 8%;
+        padding-left: 0;
     }
     .two {
         padding-right: 0;
+        padding-left: 0;
     }
+    
+     /*****Contact styles for Tablets****/
+    
+    .contact p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    
+    /*****Footer styles for Tablets****/
+    footer {
+        padding-bottom: 7em;
+    }
+    
+    .back-to-top {
+        display: none;
+    }
+    
+    
 }
 
 
 @media screen and (min-width: 1024px) {
-  
+    /*****Header styles for Desktop****/
+    header img{
+        max-width: 345px;
+    }
+    
+    .container {
+        padding: 5rem; 
+    }
+    
+    /**Three Column styles for Desktop**/
+    .primary-content {
+        align-content: center;
+        padding: 0;
+   
+    }
+    
+    .col {
+        width: 29%;
+        padding-right: 2%;
+        padding-left: 2%;
+    }
+    
+    .col nth-child (3rd) {
+        clear: right;
+    }
+  /*****Contact styles for Desktop****/
+    .contact p {
+        padding-right: 10em;
+        padding-left: 10em;
+    }
+    
+    address {
+        line-height: 1em;
+        font-size: 1.2em;
+    }
+    
 }
 
 
