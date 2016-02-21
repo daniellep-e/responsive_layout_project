@@ -3,12 +3,13 @@ body {
     padding: 0;
     margin: 0;
     text-decoration: none;
-    color: #4A4A4A;
+    color: #454F50;
     line-height: 1.4em;
+    font-family: 'Raleway', Helvetica, sans-serif;
 }
 
 p {
-    font-weight: 100;
+    font-weight: 400;
 }
 
 a {
@@ -31,12 +32,16 @@ footer {
 
 header {
     text-align: center;
+    background: linear-gradient(to bottom, #F9B8D0, #F2E2C4, #F2F2F2, #fff);
 }
 
 .navbar h1 {
     display: block;
     padding-top: 1.1em;
     text-transform: capitalize;
+    color: #D9556D;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 3em;
 }
 
 .navbar ul li{
@@ -61,7 +66,6 @@ header img {
 
 header p {
     color: #A5A4A4;
-    font-weight: 200;
     padding: 1.2em 2em 2em 2em;
 }
 
@@ -88,12 +92,12 @@ header p {
 }
 
 .contact {
-    color: #7F7F7F;
-    background-color: #FAFAFA;
+    color: #fff;
+    background-color: #454F50;
 }
 
 .contact h3 {
-    color: #4A4A4A;
+    color: #fff;
     text-transform: uppercase;
     font-size: .9em;
 }
@@ -122,6 +126,9 @@ footer {
 footer h4 {
     display: inline-block;
     float: left;
+    color: #D9556D;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.2em;
 }
 
 footer a {
@@ -137,6 +144,7 @@ footer a {
 /******Media Queries******/
 
 @media screen and (min-width: 768px) {
+    
     /*****Navbar styles for Tablets****/
     .navbar {
         text-align: center;
@@ -157,6 +165,7 @@ footer a {
         margin-right: 10%;
         background-color: #fafafa;
         width: calc((100%-10%)/3);  
+        background-color: inherit;
     }
     
     .navbar li:last-of-type {
@@ -193,7 +202,7 @@ footer a {
         text-align: left;
         margin-left: 0;
     }
-    /*****Main Column styles for Tablets****/
+    /***Two Column styles for Tablets**/
     
     .col {
         width: 45%;    
@@ -233,7 +242,15 @@ footer a {
 
 
 @media screen and (min-width: 1024px) {
+    
     /*****Header styles for Desktop****/
+    .navbar h1 {
+        display: inline;
+        float: left;
+        
+    }
+  
+    
     header img{
         max-width: 345px;
     }
@@ -241,6 +258,9 @@ footer a {
     .container {
         padding: 5rem; 
     }
+    
+    
+    
     
     /**Three Column styles for Desktop**/
     .primary-content {
@@ -255,10 +275,7 @@ footer a {
         padding-left: 2%;
     }
     
-    .col nth-child (3rd) {
-        clear: right;
-    }
-  /*****Contact styles for Desktop****/
+    /*****Contact styles for Desktop****/
     .contact p {
         padding-right: 10em;
         padding-left: 10em;
