@@ -140,7 +140,7 @@ footer a {
     display: inline-block;
     float: right;
     padding-right: 5em;
-    padding-top: 1.5em;
+    padding-top: 2em;
     text-transform: uppercase;
     font-weight: bold;
     font-size: .8em;
@@ -226,7 +226,6 @@ footer a {
     }
     
      /*****Contact styles for Tablets****/
-    
     .contact p {
         font-size: 1.4rem;
         line-height: 1.8rem;
