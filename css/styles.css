@@ -33,6 +33,8 @@ footer {
 header {
     text-align: center;
     background: linear-gradient(to bottom, #F9B8D0, #F2E2C4, #F2F2F2, #fff);
+    overflow: auto;
+    height: 100%
 }
 
 .navbar h1 {
@@ -54,7 +56,7 @@ header {
     font-weight: bold;
 }
 
-.navbar {
+#main-nav {
     text-transform: uppercase;
 }
 
@@ -145,6 +147,7 @@ footer a {
 
 @media screen and (min-width: 768px) {
     
+    
     /*****Navbar styles for Tablets****/
     .navbar {
         text-align: center;
@@ -173,7 +176,7 @@ footer a {
     }
     /*****Header styles for Tablets****/
     header {
-        height: 400px;
+        height: 100%;
     }
     
     header img {
@@ -242,26 +245,36 @@ footer a {
 
 
 @media screen and (min-width: 1024px) {
-    
+  
     /*****Header styles for Desktop****/
+    .navbar {
+        padding: 0 5%;
+    }
+    
     .navbar h1 {
-        display: inline;
         float: left;
-        
     }
   
+    #main-nav {
+        float: right:
+    }
+    
+    #main-nav li {
+        display: inline-block;
+        margin-left: 15px;
+        font-size: 1.1rem;
+        padding: 0;
+        margin-right: 0;
+    }
     
     header img{
         max-width: 345px;
     }
     
-    .container {
-        padding: 5rem; 
+    header p {
+        font-size: 1.5rem;
     }
-    
-    
-    
-    
+
     /**Three Column styles for Desktop**/
     .primary-content {
         align-content: center;
