@@ -250,6 +250,7 @@ footer a {
     .navbar {
         display: flex;
         flex-direction: row;
+        margin-bottom: 2%;
     }
     
     .flex-nav {
@@ -262,8 +263,9 @@ footer a {
         display: flex;
         flex-direction: row;
         width: 50%;
-        margin-top: 0;
+        margin-top: -2%;
         padding-top: 0;
+        
     }
     
     #main-nav li {
