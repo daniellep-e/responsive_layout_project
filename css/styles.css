@@ -43,7 +43,7 @@ header {
     color: #D9556D;
     font-family: 'Euphoria Script', cursive;
     font-size: 3em;
-    margin: 0 0 1em; 0;
+    margin: 0 0 1em 0;
 }
 
 .navbar ul li{
@@ -122,8 +122,10 @@ address a {
 
 /******Footer Styles******/
 footer {
+/*
     padding-right: 2em;
     padding-left: 2em;
+*/
     border-top: 1px solid #eae8e8;
     width: 100%;
 }
