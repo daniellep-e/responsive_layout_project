@@ -122,10 +122,8 @@ address a {
 
 /******Footer Styles******/
 footer {
-/*
     padding-right: 2em;
     padding-left: 2em;
-*/
     border-top: 1px solid #eae8e8;
     width: 100%;
 }
