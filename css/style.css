@@ -335,6 +335,12 @@ footer a {
     
 }
 
+/*****Large Screen Desktop****/
+
+@media screen and (min-width: 1370px)
+.col:nth-child(5) {
+    clear: left;
+}
 
 
 
