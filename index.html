@@ -2,23 +2,25 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Responsive Portfolio</title>
-        <link rel="stylesheet" href="css/normalize.css">
-        <link rel="stylesheet" href="css/styles.css">
+        <link rel="stylesheet" href="css/style.css">
         <link href='https://fonts.googleapis.com/css?family=Raleway:400,100%7CEuphoria+Script' rel='stylesheet' type='text/css'>
+     
     </head>
     <body>
         <header>
             <div class="navbar">
                 <h1 id="name">Danielle Palombo</h1>
                 <ul id="main-nav" class="flex-nav">
-                    <li>Home</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html#portfolio">Portfolio</a></li>
+                    <li><a href="index.html#about">About</a></li>
+                    <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </div>
             <div class="container clearfix">
-            <img src="Images/profile.jpg" class="profile" alt="Picture of Danielle Palombo in Nice, France">
+                <img src="Images/profile.jpg" class="profile" alt="Picture of Danielle Palombo in Nice, France">
             <p class="bio">Hi! I'm a front-end developer who loves responsive design and css. I recently finished a degree in front-end web development at Treehouse and am excited to put all my skills to use!</p>
             </div>
         </header>
@@ -61,6 +63,27 @@
                 <p>Someone can enter in the numbers they want, and press the big blue button and get the result.</p>
             </div>
         </div>
+        
+        <div id="about">
+            <h3>When I'm not Coding</h3>
+            <p>Skills and experience only go so far. Culture fit is important. Here are some things that make me happy:</p>
+            <ul>
+                <li><img src="Images/travel.jpg" alt="Photo of me on a train"><br>Travelling</li>
+                
+                <li><img src="Images/drawing.jpg" alt="Photo of one of my drawings"><br>Painting &amp; Drawing</li>
+                
+                <li><img src="Images/singing.jpg" alt="Photo of my doing karaoke"><br>Dancing and Singing</li>
+                
+                <li><img src="Images/camping.jpg" alt="Photo of bear on a camping trip"><br>Camping</li>
+                
+                <li><img src="Images/arrested_dev.png" alt="Photo and quote from Arrested Development"><br>Arrested Development</li>
+                
+                <li><img src="Images/beer.jpg" alt="Photo of me and Austin drinking beer"><br>Good beer and wine</li>
+                
+                <li><img src="Images/animals.jpg" alt="Photo of me with a kitten"><br>Animals</li>
+            </ul>
+        </div>
+        
         <div id="contact" class="contact">
             <h3>Contact</h3>
             <p>If you're interested in chatting or want more information about what I've been working on, I'd love to hear from you!</p>
@@ -77,8 +100,9 @@
              <ul id="footer-nav" class="flex-nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="index.html#portfolio">Portfolio</a></li>
+                <li><a href="index.html#about">About</a></li>
                 <li><a href="index.html#contact">Contact</a></li>
-                </ul>
+            </ul>
         </footer>
 
     </body>

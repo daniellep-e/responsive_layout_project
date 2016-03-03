@@ -1,3 +1,4 @@
+
 /******Body Styles******/
 body {
     padding: 0;
@@ -43,7 +44,7 @@ header {
     color: #D9556D;
     font-family: 'Euphoria Script', cursive;
     font-size: 3em;
-    margin: 0 0 1em; 0;
+    margin: 0 0 1em 0;
 }
 
 .navbar ul li{
@@ -120,10 +121,34 @@ address a {
 }
 
 
+/******About Styles******/
+#about {
+    padding: 5% 10%;
+    text-align: center;
+    background-color: #F6C4CC;
+}
+
+#about ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#about li {
+    margin-bottom: 1.5em;
+    background: lightgrey;
+    border: 2px solid #fff;
+    border-radius: .4em;
+    font-family: 'Euphoria Script', cursive;
+    font-size: 1.5em;
+}
+
+#about img {
+        border-radius: .4em;
+    }
+
+
 /******Footer Styles******/
 footer {
-    padding-right: 2em;
-    padding-left: 2em;
     border-top: 1px solid #eae8e8;
     width: 100%;
 }
@@ -134,6 +159,7 @@ footer h4 {
     color: #D9556D;
     font-family: 'Euphoria Script', cursive;
     font-size: 1.2em;
+    padding-left: 1.5em;
 }
 
 footer a {
@@ -158,6 +184,14 @@ footer a {
 }
 
 /******Media Queries******/
+
+@media screen and (min-width: 540px) {
+    #about li {
+        width: 47%;
+        display: inline-block;
+    }
+}
+  
 @media screen and (max-width: 768px) {
     #footer-nav {
         display: none;
@@ -247,7 +281,16 @@ footer a {
         padding-left: 1em;
         padding-right: 1em;
     }
+    /*****About styles for Tablets****/
+    #about li {
+        width: 30%;
+        display: inline-block;
+    }
     
+    #about ul{
+        margin-left: -10%;
+        margin-right: -10%;
+    }
     /*****Footer styles for Tablets****/
     footer {
         padding-bottom: 7em;
@@ -335,14 +378,12 @@ footer a {
     
 }
 
+/*****Large Screen Desktop****/
 
-
-
-
-
-
-
-
-
+@media screen and (min-width: 1370px) {
+    .col:nth-child(5) {
+        clear: left;
+    }
+}
 
 
