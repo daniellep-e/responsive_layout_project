@@ -180,8 +180,15 @@ footer a {
 /******Media Queries******/
 @media screen and (min-width: 540px) {
     #about li {
-        width: 49%;
+        width: 47%;
         display: inline-block;
+        background: lightgrey;
+        border: 2px solid #fff;
+        border-radius: .4em;
+    }
+    #about img {
+        border-radius: .4em;
+    }
 }
    
 
