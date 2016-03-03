@@ -138,9 +138,8 @@ address a {
     text-transform: uppercase;
 }
 
-#about img {
-    max-width: 40%px;
-}
+
+
 
 /******Footer Styles******/
 footer {
@@ -179,7 +178,20 @@ footer a {
 }
 
 /******Media Queries******/
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 540px) {
+    #about li {
+        width: 49%;
+        display: inline-block;
+}
+   
+
+@media screen and (min-width: 768px) {
+    #about li {
+        width: 30%;
+        display: inline-block;
+    }
+    
+    
     #footer-nav {
         display: none;
     }
