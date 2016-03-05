@@ -172,17 +172,10 @@ footer a {
     font-size: .8em;
 }
 
-#footer-nav {
-    display: flex;
-    list-style: none;
-    background-color: inherit;
-    margin-top: 5px;
-    font-weight: bold;
-    float: right;
-    margin-left: 0;
-    padding-left: 0;
-}
 
+#footer-nav {
+        display: none;
+}
 /******Media Queries******/
 
 @media screen and (min-width: 540px) {
@@ -192,12 +185,6 @@ footer a {
     }
 }
   
-@media screen and (max-width: 768px) {
-    #footer-nav {
-        display: none;
-    }
-}
-
 @media screen and (min-width: 768px) {
 
     /*****Navbar styles for Tablets****/
@@ -303,6 +290,18 @@ footer a {
     .back-to-top {
         display: none;
     }
+    
+    #footer-nav {
+    display: flex;
+    list-style: none;
+    background-color: inherit;
+    margin-top: 5px;
+    font-weight: bold;
+    float: right;
+    margin-left: 0;
+    padding-left: 0;
+}
+
 
 }
 
